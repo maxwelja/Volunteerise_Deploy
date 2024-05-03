@@ -1,0 +1,14 @@
+.NavBar {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    font-size: 24px;
+    padding: 0px;
+    width: 900px;
+  }
+
+  #navLogo {
+    max-width: 100px;
+    background-color: white;
+  }

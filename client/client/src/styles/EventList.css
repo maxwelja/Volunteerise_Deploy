@@ -1,0 +1,168 @@
+body{
+  background-color: #5271ff;
+  color: white;
+  overflow: hidden;
+}
+
+h1{
+  text-align: center;
+}
+
+.EventList-wrapper{
+background: #38b6ff;
+padding: 2%;
+width: fit-content;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3%;
+max-height: 80vh;
+min-width: 900px;
+overflow-y: auto;
+box-shadow: 5px 5px 7px rgb(27, 27, 27);
+border-radius: 10px;
+border: 2px solid #555;
+}
+
+.EventList-Input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(128, 128, 128);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  min-width: 600px;
+}
+
+.EventList-Input-Item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+
+}
+
+.EventList-Input-Item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.EventList-Input-Item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+
+}
+
+.EventList-Input-Item input:focus{
+  outline: 2px solid rgb(3, 3, 3);
+}
+
+.primaryBtn{
+  background-color: #5271ff;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.primaryBtn:hover{
+  background-color: #5271ff;
+}
+
+.secondaryBtn{
+  background-color: rgb(89, 92, 90);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+
+}
+
+.active{
+  background-color: #5271ff;
+}
+
+.Upcoming-List{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.btn-area{
+  margin-bottom: 15px;
+}
+
+.Upcoming-List-Item{
+  background-color: #5271ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 5px rgb(43, 42, 42);
+}
+
+.Upcoming-List-Item h3{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Upcoming-List-Item p{
+  font-size: 14px;
+  color: white;
+  margin-top: 0px;
+ 
+}
+
+.icon{
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  color: red
+}
+
+.check-icon{
+  font-size: 25px;
+  margin-left: 10px;
+  color: #5271ff ;
+}
+
+.check-icon:hover{
+  color: #5271ff;
+}
+
+.edit__wrapper{
+  background-color: #5271ff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit__wrapper input,.edit__wrapper textarea{
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.edit__wrapper .primaryBtn{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 16px;
+  width:fit-content;
+}
+
+

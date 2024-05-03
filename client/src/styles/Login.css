@@ -1,0 +1,126 @@
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    min-height: 430px;
+    max-height: 490px;
+    background: rgba(56,182,255,255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 10px black;
+}
+
+.rectangle-elements {
+    position: relative;
+    top: 5%;
+}
+
+.logo-image {
+    display: block;
+    width:140px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 32px;
+    box-shadow: 5px 5px black;
+}
+
+.loginText {
+    text-align:center;
+    top:10px;
+    position:relative;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.loginText2 {
+    top:10px;
+    position:relative;
+    font-size: 1 rem;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.account-buttons {
+    display: inline-block;
+    width:200px;
+    margin-left: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+    margin-top: 32px;
+    box-shadow:5px 5px black;
+    color: white;
+    background-color: rgba(56,182,255,255);
+    border:none;
+    padding: 10px;
+
+}
+
+.account-buttons:active {
+    transform: translateY(5px);
+}
+
+.account-buttons-container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.submit-button {
+    width: 100px;
+    border-radius: 5px;
+    box-shadow:5px 5px black;
+    color: white;
+    background-color: #5271ff;
+    border:none;
+    padding: 10px;
+}
+
+.submit-button:active {
+    transform: translateY(5px);
+}
+
+.input {
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative; 
+}
+
+.input input {
+    width: 400px;
+    border-radius: 5px;
+    border: none ;
+    padding:15px;
+}
+
+.submit {
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative; 
+}
+
+
+.accountLinks {
+    margin-bottom:10px;
+}
+
+.accountLinks a {
+    color: white;
+    
+}

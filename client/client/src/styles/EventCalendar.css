@@ -1,0 +1,48 @@
+.calendar-card-null {
+  width: 75px;
+  height: 85px;
+    background-color: gray;
+    border: 2px solid rgb(87, 87, 87);
+}
+
+.calendar-card {
+  width: 75px;
+  height: 85px;
+    border: 2px solid rgb(87, 87, 87);
+}
+
+.calendar-card:hover {
+    background-color: #5271ff;
+  }
+
+.calendar-card:active {
+  background-color: lightgray;
+}
+
+.calendar-card-event:hover {
+    background-color: #5271ff;
+  }
+
+.calendar-card-event:active {
+  background-color: lightgray;
+}
+
+.calendar {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.calendar-container {
+    width: 890px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar-card-event {
+    width: 75px;
+    height: 85px;
+    background-color: #8fcc8f;
+    border: 2px solid #5c9c5c;
+}
